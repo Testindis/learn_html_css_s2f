@@ -1,0 +1,172 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+body {
+  background-color: #dff6ff;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #06283d;
+}
+
+a:hover {
+  color: #256d85 !important;
+}
+
+.navbar {
+  background-color: #47b5ff !important;
+}
+#title {
+  background-color: #47b5ff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#title {
+  color: #dff6ff;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  color: #dff6ff;
+  font-family: "Lato", sans-serif;
+  font-size: 1.15rem;
+}
+.nav-item {
+  padding: 0 5px;
+}
+.navbar-brand {
+  color: #dff6ff;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+}
+.brand-image {
+  width: 60px;
+  height: auto;
+  margin-right: 10px;
+  /* margin-left: 30px; */
+}
+
+.trainer-slides{
+  min-height: 745px;
+}
+
+.trainer {
+  border-radius: 50%;
+  width: 350px;
+}
+.contact-btn {
+  margin: 5% 3% 5% 0;
+}
+#features {
+  text-align: center;
+}
+.feature-item {
+  padding: 0 30px;
+}
+.feature-text {
+  color: #06283d;
+}
+.feature-img {
+  width: 30%;
+  margin: 100px 0 30px;
+}
+/* .carousel{
+    transform: rotate(25deg);
+} */
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.fa-solid {
+  margin-right: 10px;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #47b5ff;
+  color: #dff6ff;
+}
+
+.testimonial-img {
+  margin: 30px;
+  border-radius: 100%;
+  width: 20%;
+}
+
+/* Press */
+#press {
+  text-align: center;
+  background-color: #47b5ff;
+  color: #dff6ff;
+  padding-bottom: 3%;
+}
+.press-image {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+.card {
+  text-align: center;
+  margin: 0% 10%;
+}
+.pricing-message {
+    text-align: center;
+    padding: 3% 0 0;
+}
+
+
+/* Call to Action */
+
+#cta {
+  background-color: #47b5ff;
+  text-align: center;
+  font-weight: bold;
+  
+}
+.cta-img {
+  margin: 20px 10px;
+}
+.cta-head {
+  color: #dff6ff;
+}
+
+/* Footer */
+
+#footer{
+
+  text-align: center;
+  color:#06283d
+}
+.social-img {
+  margin: 10px 10px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .trainer-slides{
+    min-height: 840px;
+  }
+}
+
+
